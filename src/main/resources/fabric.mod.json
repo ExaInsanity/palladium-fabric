@@ -1,36 +1,36 @@
 {
   "schemaVersion": 1,
-  "id": "template",
+  "id": "palladium",
   "version": "${version}",
 
-  "name": "Template",
-  "description": "This is the standard template for all 1.15.1.x project mods",
+  "name": "Palladium",
+  "description": "An 1.15.1 client-side mod to backport newer fixes and add some of its own",
   "authors": [
     "ExaInsanity",
     "Zefyro"
   ],
   "contact": {
     "homepage": "https://irisfeanora.net/",
-    "sources": "https://github.com/irisfeanora/template-1151x"
+    "sources": "https://github.com/exainsanity/palladium-fabric"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/palladium/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.irisfeanora.template.ExampleMod"
+      "net.irisfeanora.palladium.PalladiumMod"
     ]
   },
   "mixins": [
-    "template.mixins.json"
+    "palladium.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.11.3",
     "fabric": "*",
-    "minecraft": "1.17.x",
+    "minecraft": "1.15.1",
     "java": ">=16"
   },
 
